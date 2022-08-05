@@ -15,6 +15,7 @@ header {
 }
 .home-section {
   /* width: 100%; */
+
   height: 100vh;
   background-color: #fffafa;
   text-align: center;
@@ -74,74 +75,36 @@ header {
 .btn-two:hover a {
   color: white;
 }
-/* .comment {
-  width: 100vh;
-  display: flex;
+.first_img {
+  background-image: url(/images/left_bvmv7q.png);
+  background-position: left;
+  width: 20%;
+  height: 50%;
+  background-color: #9b2424;
+}
+.program_section {
   text-align: center;
-  color: #514949;
-  position: relative;
-  justify-content: center;
-  position: relative;
-  top: 300px;
+  height: 120vh;
 }
 
-.left_bvmv7q {
-  width: 50%;
-  height: 50%;
-  left: -200px;
-  position: relative;
-  top: 30px;
-  background-color: red;
-}
-.comment-2 {
-  text-align: center;
-  /* display: flex; */
-/* } */
-.comment-2 h1,
-h2 {
-  position: relative;
-  top: -400px;
-  left: 300px;
-}
-.comment-3 {
+.programs {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 30px;
-  position: absolute;
-  top: 20%;
-  left: 10%;
 }
 .trainig {
-  width: 150%;
-  height: 150%;
-
-  text-align: center;
-
-  background-color: #c58080;
+  width: 40%;
+  height: 100%;
+  background-color: #440808;
 }
 .internship {
-  width: 150%;
-  height: 60vh;
-  position: relative;
-  text-align: center;
-
-  background-color: #c58080;
+  width: 40%;
+  height: 100%;
+  background-color: #fffafa;
 }
 .talent {
-  width: 150%;
-  height: 60vh;
-  position: relative;
-  text-align: center;
-
-  background-color: #c58080;
-}
-.right_yz6hn3 {
-  width: 50%;
-  height: 50%;
-  right: -110%;
-  position: absolute;
-  top: 30px;
+  width: 40%;
+  height: 150%;
+  background-color: #fffafa;
 }
 .footer_1 {
   display: flex;
@@ -151,8 +114,7 @@ h2 {
   margin: 50px;
   left: 50px;
 }
-.logo {
-}
+
 .logo img {
   position: relative;
   top: 10%;
@@ -165,12 +127,15 @@ h2 {
 }
 .contact_1 a {
   text-decoration: none;
+  color: #e7332b;
+}
+contact_2 {
 }
 .icons {
   width: 50%;
   height: 50%;
   position: absolute;
-  right: 40px;
+  right: -40px;
 }
 .icons img {
   width: 5%;
