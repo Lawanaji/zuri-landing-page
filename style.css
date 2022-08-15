@@ -12,6 +12,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50px;
 }
 .home-section {
   /* width: 100%; */
@@ -23,6 +24,10 @@ header {
   justify-content: center;
   align-items: center;
   gap: 50%;
+  padding-top: 100px;
+}
+.home-section p {
+  padding-top: 50px;
 }
 .btn {
   display: flex;
@@ -30,6 +35,7 @@ header {
   justify-content: center;
   gap: 20px;
   width: 100%;
+  padding-top: 100px;
 }
 .btn-one {
   width: 200px;
@@ -129,7 +135,7 @@ header {
   text-decoration: none;
   color: #e7332b;
 }
-contact_2 {
+.contact_2 {
 }
 .icons {
   width: 50%;
