@@ -108,8 +108,8 @@ nav {
 }
 .section_2 h1 {
   font-size: 20px;
-  /* padding: 30px; */
-  margin: 20px;
+  padding: 30px;
+  /* margin: 20px; */
 }
 .section_2 p {
   font-size: 25px;
@@ -121,7 +121,8 @@ hr {
   width: 100%;
   height: 20%;
   position: relative;
-  /* padding: 30px; */
+  right: 50px;
+  padding: 30px;
   top: 200px;
   display: flex;
   justify-content: space-around;
@@ -130,4 +131,35 @@ hr {
 }
 .section_3 h1 p {
   color: rgb(231, 51, 43);
+}
+.section_4 {
+  width: 100%;
+  height: 100vh;
+  padding: 60px;
+  position: relative;
+  top: 200px;
+}
+.box-1 {
+  width: 25%;
+  height: 70%;
+  background: rgb(231, 51, 43);
+  border-radius: 10px;
+  color: white;
+}
+.box-1 h1,
+h2,
+h3 {
+  padding-left: 20px;
+}
+.box-1 h1 {
+  font-size: 60px;
+}
+.box-1 h2 {
+  font-size: 30px;
+}
+.curve_1 {
+  object-fit: contain;
+  position: relative;
+  left: 200px;
+  width: 40%;
 }
