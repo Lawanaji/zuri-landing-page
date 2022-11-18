@@ -1,6 +1,7 @@
 body {
   padding-left: 10px;
   padding-right: 30px;
+  scroll-behavior: smooth;
 }
 head {
   display: flex;
@@ -9,10 +10,10 @@ head {
 }
 nav {
   display: flex;
-  width: 90%;
+  width: 100%;
   justify-content: center;
   justify-content: space-around;
-  position: fixed;
+  position: sticky;
   top: 0%;
   background: white;
   height: 40px;
